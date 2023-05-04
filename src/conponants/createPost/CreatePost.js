@@ -13,7 +13,6 @@ function CreatePost() {
   const dispatch=useDispatch();
 
   const myProfile=useSelector((state) => state.appConfigReducer.myProfile);
-
   const handleImageChange = (e) => {
     const file = e.target.files[0];
     const fileReader = new FileReader();

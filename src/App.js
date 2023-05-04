@@ -4,7 +4,7 @@ import Home from "./pages/Home/Home";
 import { Routes, Route } from "react-router-dom";
 import RequireUser from "./conponants/RequireUser";
 import Profile from "./conponants/profile/Profile";
-import Feed from "./conponants/feed/Feed";
+import Feed from "./conponants/feed/Feed"; 
 import {useSelector} from 'react-redux'
 import UpdateProfile from "./conponants/updateprofile/UpdateProfile";
 import { useEffect, useRef } from "react";

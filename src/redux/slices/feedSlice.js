@@ -9,7 +9,7 @@ export const getfeedData = createAsyncThunk(
       console.log("user profilesss", response);
       return response.result;
     } catch (error) {
-      return Promise.reject(error);
+       return Promise.reject(error);
     } 
   }
 );

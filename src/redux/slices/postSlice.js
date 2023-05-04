@@ -6,7 +6,7 @@ export const getUserProfile = createAsyncThunk(
   "user/getUserProfile",
   async (body) => {
     try {
-     
+    
       const response = await axiosClient.post("/user/getUserProfile", body);
       console.log("user profilesss", response);
       return response.result;

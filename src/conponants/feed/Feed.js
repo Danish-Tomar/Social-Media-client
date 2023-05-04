@@ -12,6 +12,7 @@ const feedData=useSelector(state=>state.feedDataReducer.feedData)
  useEffect(()=>{
   dispatch(getfeedData());
  },[dispatch])
+ 
   return (
     <div className='Feed'>
       <div className="container">

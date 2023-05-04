@@ -39,6 +39,7 @@ function Post({ post }) {
         {post.isLiked ? <AiFillHeart style={{color:'red'}} className='icon'/> : <AiOutlineHeart className='icon' />}
           <h4>{`${post.likesCount} likes`}</h4>
         </div>
+        
         <p className="caption">{post?.caption}</p>
         <h6 className="time-ago">{post?.timeAgo}</h6>
       </div>

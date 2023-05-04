@@ -65,6 +65,7 @@ function Profile() {
                 {isfollowing ? "unfollow" : "follow"}
               </h5>
             )}
+            
             {isMyProfile && (
               <button
                 className="update-prifile btn-secondary"

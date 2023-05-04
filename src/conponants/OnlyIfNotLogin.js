@@ -6,7 +6,7 @@ function OnlyIfNotLogin() {
     const user= getItem(KEY_ACCESS_TOKEN)
   return (
     user?<Navigate to="/"/>:<Outlet/>
-  )
+  ) 
 }
 
 export default OnlyIfNotLogin;

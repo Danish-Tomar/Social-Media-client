@@ -30,6 +30,7 @@ try {
           <div className="profile hover-link"onClick={()=>navigate(`/profile/${myProfile?._id}`)}>
             <Avatar src={myProfile?.avatar?.url}/>
           </div>
+          
           <div className="logout hover-link"onClick={handleLogoutClick}>
             <AiOutlineLogout/>
           </div>

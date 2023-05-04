@@ -52,6 +52,7 @@ function UpdateProfile() {
               accept="image/*"
               onChange={handleImageChange}
             />
+            
           </div>
         </div>
         <div className="right-part">

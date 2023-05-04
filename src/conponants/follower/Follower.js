@@ -12,6 +12,7 @@ function Follower({ user }) {
   useEffect(() => {
     setIsFollowing(feedData.followings.find((item) => item._id === user._id));
   }, [feedData]);
+  
   function handleUserfollow() {
     dispatch(
       followAndUnfollowUser({

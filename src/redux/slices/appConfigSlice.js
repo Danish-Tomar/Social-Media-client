@@ -8,7 +8,7 @@ export const getMyInfo = createAsyncThunk(
   "user/getMyInfo",
   async () => {
     try {
-      
+
       const response = await axiosClient.get("/user/getMyInfo");
       // console.log("api called", response);
       return response.result;

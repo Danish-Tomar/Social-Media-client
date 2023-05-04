@@ -7,6 +7,6 @@ export default configureStore({
         appConfigReducer,
         postsReducer,
         feedDataReducer,
-    }
+    } 
 
 });
